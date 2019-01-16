@@ -16,11 +16,11 @@ API is listening on `localhost:2323`
 
 Login - [POST] `localhost:2323/login` username=admin, password=admin
 
-Get All COUNTRIES - [GET] `localhost:2323/countries`
+Get All COUNTRIES - [GET] `localhost:2323/countries` header: {Authorization: "Bearer [TOKEN SENT]"}
 
-Add A Country - [PUT] `localhost:2323/countries` body: {country: "name of country"}
+Add A Country - [PUT] `localhost:2323/countries` header: {Authorization: "Bearer [TOKEN SENT]"} body: {country: "name of country"}
 
-Delete A Country - [DELETE] `localhost:2323/countries` body: {country: "name of country"}
+Delete A Country - [DELETE] `localhost:2323/countries`header: {Authorization: "Bearer [TOKEN SENT]"} body: {country: "name of country"}
 
 
 
