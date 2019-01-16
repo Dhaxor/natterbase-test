@@ -1,0 +1,35 @@
+{
+  "name": "natterbase-test",
+  "version": "1.0.0",
+  "description": "A simple rest api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayomidearo/natterbase-test.git"
+  },
+  "keywords": [
+    "country",
+    "api",
+    "rest"
+  ],
+  "author": "Aro Ayomide <skilashiaro@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayomidearo/natterbase-test/issues"
+  },
+  "homepage": "https://github.com/ayomidearo/natterbase-test#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "helmet": "^3.15.0"
+  }
+}
